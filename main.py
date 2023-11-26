@@ -16,7 +16,7 @@ decoder = TrOCRForCausalLM(TrOCRConfig())
 model = VisionEncoderDecoderModel(encoder=encoder, decoder=decoder)
 
 # If you want to start from the pretrained model, load the checkpoint with `VisionEncoderDecoderModel`
-# processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
+processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten") #Run1lần
 model = VisionEncoderDecoderModel.from_pretrained("/content/drive/MyDrive/asia-captcha-model1")
 
 # load image from the IAM dataset
