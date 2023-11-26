@@ -1,4 +1,7 @@
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install jax==0.3.13 https://whls.blob.core.windows.net/unstable/cuda111/jaxlib-0.3.7+cuda11.cudnn82-cp38-none-win_amd64.whl
-pip install tensorflow
-pip install transformers
+tensorflow
+flax
+transformers
+pillow
+torch
+requests
+
